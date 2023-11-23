@@ -1,0 +1,44 @@
+body 
+{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+}
+button 
+{
+    border-radius: 25px;
+    background-color: red;
+    color: white;
+    padding: 5px;
+}
+.legenda 
+{
+    width: 20px;
+    height: 20px;
+    margin: 3px;
+    display: inline-block;
+    text-align: center;
+}
+
+.poltrona 
+{
+    width: 20px;
+    height: 20px;
+    margin: 3px;
+    background-color: green;
+    display: inline-block;
+}
+.ocupada 
+{
+    background-color: #FF0000;
+}
+.fileira 
+{
+    display: flex;
+    align-items: center;
+}
